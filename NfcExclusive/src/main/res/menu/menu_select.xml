@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.nfcexclusive.nfcexclusive.MainActivity">
+    <group
+        android:id="@+id/groupVsbl"
+        android:visible="false">
+    <item
+        android:id="@+id/a"
+        android:title="Save"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_delete_black_48dp"
+        />
+    </group>
+</menu>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.nfcexclusive.nfcexclusive.MainActivity">
+    <item
+        android:id="@+id/a"
+        android:icon="@drawable/ic_save_white_48dp"
+        android:title="Save"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/w"
+        android:icon="@drawable/okay"
+        android:title="Write"
+        app:showAsAction="always" />
+
+</menu>

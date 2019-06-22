@@ -1,0 +1,60 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:padding="7dip"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/firstLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textIsSelectable="false"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/icon"
+        android:gravity="center_vertical"
+        android:text="Example application"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/secondLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textIsSelectable="false"
+        android:typeface="monospace"
+        android:focusable="true"
+        android:longClickable="true"
+        android:layout_toEndOf="@+id/icon"
+        android:layout_below="@+id/firstLine"
+        android:fontFamily="sans-serif" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dip"
+        android:id="@+id/radioButton"
+        android:layout_alignBottom="@+id/icon"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="6dip"
+        android:adjustViewBounds="true"
+        android:maxWidth="32dp"
+        android:maxHeight="32dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/cards2"
+        android:layout_alignBottom="@+id/secondLine"
+        android:layout_toEndOf="@+id/radioButton"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>
+
