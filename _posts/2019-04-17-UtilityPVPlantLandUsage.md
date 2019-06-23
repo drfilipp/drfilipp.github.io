@@ -4,7 +4,7 @@ mathjax: true
 title: Об авторе
 tags: [nfc, mifare classic, hex]
 ---
- _Это приложение Android для чтения, записи, анализа и т.Д. RFID-тегов и NFC меток._
+ _Немного о создателях._
 
 
 ### Об авторе
